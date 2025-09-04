@@ -3,7 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import { Routes, Route } from 'react-router'
 import LandingPage from './pages/LandingPage.jsx'
-import LoginPage from './pages/loginPage.jsx'
+import LoginPage from './pages/LoginPage.jsx'
 import RegisterPage from './pages/RegisterPage.jsx'
 import { Link, Outlet } from 'react-router'
 
