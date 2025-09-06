@@ -6,6 +6,7 @@ import LandingPage from './pages/LandingPage.jsx'
 import LoginPage from './pages/LoginPage.jsx'
 import RegisterPage from './pages/RegisterPage.jsx'
 import { Link, Outlet } from 'react-router'
+import Error404 from './pages/Error404.jsx'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
      <Route path='/' element={<LandingPage/>} />
      <Route path='/login' element={<LoginPage/>}/> 
      <Route path='/register' element={<RegisterPage/>}/> 
+     <Route path='*' element={<Error404/>}/> 
 
       </Routes>
       <Outlet/>
